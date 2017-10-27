@@ -7,7 +7,11 @@
 		{
 			"Name": "CPP_Practice",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject",
+				"Engine"
+			]
 		}
 	]
 }
