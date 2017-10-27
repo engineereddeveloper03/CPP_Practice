@@ -14,7 +14,10 @@ public:
 	// Sets default values for this actor's properties
 	AActorPract();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
-	FString Name;
+	FString Name = "Brandon";
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Stats)
+	int intelligence;
 
 protected:
 	// Called when the game starts or when spawned
